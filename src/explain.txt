@@ -42,3 +42,8 @@ $ npm install --save-dev babel-plugin-transform-decorators-legacy +@babel/plugin
 
 17 密码加密 使用md5 或者第三放库 utility 
 密码在加密的 时候需要加盐 增加密码的破解难度
+
+启动mongodb
+1，首先安装Mongodb
+2, 在根文件夹下创建data 以及 data/db
+3, 在mongodb/server/4.0/bin mongod -- dbpath c:\data\db
