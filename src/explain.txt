@@ -1,0 +1,44 @@
+1 npm install -g create-react-app
+2 create-react-app 文件名
+3 npm start 启动
+4 npm run eject 初始化webpack
+5 npm install express --save
+6 npm install -g nodemon 监听node变化
+7 安装mongondb
+8 安装mongoose npm installmongoose --save
+9 安装UI库移动端  npm install antd-mobile --save 按需加载
+10 安装babel npm install babel-plugin-import --save-dev 在package.json中配置
+"plugins": [
+  [
+    "import",
+    {
+      "libraryName": "antd-mobile",
+      "style": "css"
+    }
+  ]
+]
+11 npm install redux-thunk --save 异步处理中间件 applyMiddleware 开启中间件
+12 npm install react-redux --save 
+
+14 install react-router-dom --save 路由
+15 npm install axios --save 安装接口请求
+16 基于cookie-parser --save 
+$ npm install --save-dev babel-plugin-transform-decorators-legacy +@babel/plugin-proposal-decorators 路由继承 配置
+"plugins": ["transform-decorators-legacy"]
+  [
+    "@babel/plugin-proposal-decorators",
+    {
+      "legacy": true
+    }
+  ],
+  [
+    "@babel/plugin-proposal-class-properties",
+    {
+      "loose": true
+    }
+  ]
+
+16 npm install body-parser --save
+
+17 密码加密 使用md5 或者第三放库 utility 
+密码在加密的 时候需要加盐 增加密码的破解难度
